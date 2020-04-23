@@ -1,6 +1,10 @@
-#How to splitter Chinese words in php
+# How to splitter Chinese words in php
 
+
+- copy codes below into a file (maybe like: test.php )
+- get results as execut "php test.php “”
 ```
+<?php
 $file = "d:\\aa.dict";
 $tagModel = TagMaster::getInstance($file);
 $tagModel->saveDics([
@@ -32,4 +36,5 @@ $tagModel->saveDics([
 $data = $tagModel->parseWords("中水诺biGshowSk2忆江南  含量杭州hnag州44  含量   sk4 怕A星说");
 //$data = $tagModel->parseWords("");
 print_r($data);
+?>
 ```
