@@ -1,5 +1,7 @@
 # How to splitter Chinese words in php
 
+## requirement
+- PHP version not less than 5.0
 
 ## Setup
 - copy codes below into a file (maybe like: test.php )
