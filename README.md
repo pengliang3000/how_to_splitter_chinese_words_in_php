@@ -1,9 +1,11 @@
 # How to splitter Chinese words in php
 
+
 ## Setup
 - copy codes below into a file (maybe like: test.php )
-- get results as execute "php test.php “”
-```
+- get results as execute "php test.php"
+
+```php
 <?php
 require_once("TagMaster.php");
 $file = "d:\\aa.dict";
