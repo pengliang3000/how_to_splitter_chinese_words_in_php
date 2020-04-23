@@ -1,6 +1,6 @@
 # How to splitter Chinese words in php
 
-
+## Setup
 - copy codes below into a file (maybe like: test.php )
 - get results as execut "php test.php “”
 ```
