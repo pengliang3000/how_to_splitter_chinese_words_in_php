@@ -5,6 +5,7 @@
 - get results as execute "php test.php “”
 ```
 <?php
+require_once("TagMaster.php");
 $file = "d:\\aa.dict";
 $tagModel = TagMaster::getInstance($file);
 $tagModel->saveDics([
